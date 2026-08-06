@@ -1,24 +1,61 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
+# InterviewMate - Interview Preparation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+InterviewMate is a React.js-based web application designed to help students and job seekers prepare for interviews in an organized way. It provides features like job description analysis, preparation plans, interview questions, coding practice, notes management, and mock interview practice in one platform.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### User Authentication
+- User registration and login functionality
+- Protected routes to restrict access for unauthorized users
+- User data stored using Local Storage
 
-## React Compiler
+### Dashboard
+- Displays interview preparation progress
+- Shows daily tasks and quick navigation options
+- Provides an overview of preparation activities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Job Description Analysis
+- Users can add company name, job role, interview date, and job description
+- Identifies important skills and keywords required for the role
+- Helps users understand preparation requirements
 
-## Expanding the ESLint configuration
+### Preparation Plan
+- Creates a structured preparation plan based on job details
+- Divides preparation into daily tasks for better time management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# InterviewMate
->>>>>>> e94a13013b713fe741829e3cb190934f59d732eb
-=======
-# InterviewMate
->>>>>>> 0bfc59c860ed4820598b142cf0aac278e7b1429b
+### Learning Module
+- Provides important technical concepts and interview topics
+- Helps users revise required skills easily
+
+### Interview Questions
+- Contains HR, technical, and behavioral interview questions
+- Supports searching and filtering questions by topics
+
+### Coding Practice
+- Provides coding problems based on different topics and difficulty levels
+- Helps improve problem-solving skills
+
+### Notes Management
+- Create, edit, delete, and search personal notes
+- Notes are stored using Local Storage
+
+### Mock Interview
+- Practice HR, technical, and behavioral interview questions
+- Helps improve interview confidence
+
+### Profile Management
+- Update personal details like name, email, skills, and experience
+- Stores profile information locally
+
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router
+- Context API
+- Local Storage
+
